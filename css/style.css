@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
 
+
 :root {
     --bg1: #151828;
     --bg2: #1B1F34;
@@ -30,7 +31,7 @@ a {
     color: var(--body);
     text-decoration: none;
     transition: all 0.4s ease;
-    
+
 }
 
 a:hover {
@@ -172,6 +173,9 @@ section {
 
 #about h6 {
     color: var(--brand);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
 }
 
@@ -215,13 +219,13 @@ section {
 }
 
 /*FEATURES*/
-#features{
+#features {
     background-color: var(--bg1);
 }
 
 .feature {
     display: flex;
-    
+
 }
 
 .feature .icon-feature {
@@ -239,6 +243,7 @@ section {
     margin-bottom: 16px;
 
 }
+
 /*SOCIAL ICONS*/
 .social-links a {
     width: 48px;
@@ -255,14 +260,16 @@ section {
 }
 
 /*TEAM*/
-#team{
+#team {
     background-color: var(--bg2);
 }
-.team-member{
+
+.team-member {
     position: relative;
-  
+
 }
-.team-member .social-links{
+
+.team-member .social-links {
     position: absolute;
     top: 0px;
     right: 30px;
@@ -271,22 +278,26 @@ section {
 
 
 }
-.team-member:hover .social-links{
+
+.team-member:hover .social-links {
     opacity: 1;
     top: 30px;
 
 }
+
 /*REVIEWS*/
-#reviews{
-    background-color: var(--bg1);
+#reviews {
+    background-color: var(--bg2);
 }
-.review{
+
+.review {
     padding: 32px;
     background-color: var(--bg2);
     position: relative;
 
 }
-.review .icon{
+
+.review .icon {
     width: 42px;
     height: 42px;
     display: flex;
@@ -300,20 +311,23 @@ section {
     right: 32px;
 
 }
-.review img{
+
+.review img {
     width: 60px;
     border-radius: 100px;
 
 }
 
 /*BLOG POST*/
-#blog{
-    background-color: var(--bg2);
+#blog {
+    background-color: var(--bg1);
 }
-.blog-post{
+
+.blog-post {
     position: relative;
 }
-.blog-post .date{
+
+.blog-post .date {
     width: 100px;
     height: 100px;
     background-color: var(--brand);
@@ -326,29 +340,33 @@ section {
     left: 30px;
 
 }
-.blog-post .day{
+
+.blog-post .day {
     font-size: 32px;
     line-height: 1;
     font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--bg1);
 }
-.blog-post .year{
+
+.blog-post .year {
     color: var(--bg1);
 }
 
-/*BOoKING*/
-#booking{
+/*BOOKING*/
+#booking {
     background: linear-gradient(to right, rgba(27, 31, 52, 0.8), rgba(27, 31, 52, 0.8)), url(../img/cover_2.jpg);
     background-position: center;
     background-size: cover;
 
 }
-#booking form{
+
+#booking form {
     background-color: var(--bg1);
     padding: 32px;
 
 }
-#booking form .form-control{
+
+#booking form .form-control {
     background-color: var(--bg2);
     border-radius: 0;
     margin-top: 16px;
@@ -356,32 +374,38 @@ section {
     border: 2px solid var(--bg2);
     color: var(--body);
 }
-#booking form input{
+
+#booking form input {
     height: 58px;
 
 }
-#booking form .form-control:focus{
-   box-shadow: none;
-   border-left-color: var(--brand);
-    
+
+#booking form .form-control:focus {
+    box-shadow: none;
+    border-left-color: var(--brand);
+
 }
+
 /*FOOTER*/
-footer{
+footer {
     padding-top: 160px;
 
 }
-footer .social-links{
+
+footer .social-links {
     display: flex;
 }
-footer .social-links{
+
+footer .social-links {
     margin-right: 5px;
 
 }
 
-.footer-top{
+.footer-top {
     padding-bottom: 30px;
 }
-.footer-bottom{
+
+.footer-bottom {
     padding-top: 30px;
     padding-bottom: 30px;
     border-top: 1px solid var(--bg2);
