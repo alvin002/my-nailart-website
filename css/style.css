@@ -292,7 +292,7 @@ section {
 
 .review {
     padding: 32px;
-    background-color: var(--bg2);
+    background-color: var(--bg1);
     position: relative;
 
 }
@@ -304,7 +304,7 @@ section {
     align-items: center;
     justify-content: center;
     background-color: var(--brand);
-    color: var(--bg1);
+    color: var(--bg2);
     border-radius: 100px;
     position: absolute;
     right: 0;
@@ -325,6 +325,7 @@ section {
 
 .blog-post {
     position: relative;
+    
 }
 
 .blog-post .date {
