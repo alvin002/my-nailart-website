@@ -129,7 +129,8 @@ section {
     padding: 16px 36px;
     font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: all 0.4s ease;
-    border-radius: 0;
+    border-radius: 12px;
+    font-size: 12px;
 }
 
 .btn-brand {
